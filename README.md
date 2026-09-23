@@ -17,8 +17,8 @@ Docente: Ing. Carlos Alfredo Mendoza Corpus.
 |---|---|---|
 | `mensajeria/` | Caso 1 | Mensajería entre varias personas con transferencia de archivos. Un servidor intermediario (broker) enruta los mensajes: middleware orientado a mensajes (MOM). |
 | `excel-access/` | Caso 2 | Conexión de Microsoft Excel con la base de datos `VERDULEROS.mdb` mediante Power Query y el proveedor OLE DB de Access (ACE). Incluye el libro resultante y las capturas del procedimiento. |
-| `diccionario/` | Caso 3 | Formulario en Python para consultar el significado de palabras: las 49 de la sopa de letras del Laboratorio 03 y 52 términos seleccionados de la sesión S04. |
-| `docs/` | Todos | Informe en PDF con la documentación de los cinco casos (incluye Yape y el ensayo). |
+| `diccionario/` | Caso 3 | Formulario en Python para consultar el significado de palabras: las 49 de la sopa de letras del Laboratorio 03 y 52 términos seleccionados del documento S04_SII. |
+| `docs/` | Todos | Informe en PDF (y su versión editable en Word) con la documentación de los cinco casos: incluye la investigación de Yape y Plin y el ensayo. |
 
 ## Requisitos
 
@@ -39,7 +39,7 @@ En cada cliente se escribe la IP del servidor (`127.0.0.1` si es la misma PC, o 
 - enviar archivos de hasta 10 MB con **Enviar archivo…** (se guardan en `recibidos/<nombre>/`);
 - dejar mensajes privados a un usuario desconectado: el servidor los guarda en cola y los entrega cuando vuelve a conectarse.
 
-El servidor registra la actividad en `servidor.log`.
+El servidor registra la actividad en `servidor.log`. En `mensajeria/capturas/` están las ventanas de los cinco integrantes durante la prueba.
 
 | Archivo | Función |
 |---|---|
